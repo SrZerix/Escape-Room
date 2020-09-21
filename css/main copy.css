@@ -1,0 +1,106 @@
+a {
+    color: black;
+}
+
+ul li {
+    list-style: none;
+}
+
+header h4 {
+
+    color:#5b5c53
+}
+
+header {
+
+    background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+    color: #CCC
+}
+
+#main_section {
+
+        background-image: url("img/fondo.jpg");
+
+}
+
+#blog h4{
+
+    color:#d8e708
+
+}
+
+#blog h5 {
+
+    color:#adafad
+
+}
+
+#blog p {
+
+    color: #CCC
+
+}
+
+div {
+
+    color:#adafad
+}
+
+a :hover{
+
+    text-decoration: none;
+}
+
+#reserva {
+
+    background-color: #d8e708    
+}
+
+#btn_search {
+
+    background-color: #d8e708
+    
+}
+
+.navbar a{
+
+    color:#d8e708
+}
+
+i{
+    color:#d8e708
+}
+
+body {
+
+    background:
+    linear-gradient(27deg, #151515 5px, transparent 5px) 0 5px,
+    linear-gradient(207deg, #151515 5px, transparent 5px) 10px 0px,
+    linear-gradient(27deg, #222 5px, transparent 5px) 0px 10px,
+    linear-gradient(207deg, #222 5px, transparent 5px) 10px 5px,
+    linear-gradient(90deg, #1b1b1b 10px, transparent 10px),
+    linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
+    background-color: #131313;
+    background-size: 20px 20px;
+    color: #cccccc
+}
+
+footer {
+
+    background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+
+}

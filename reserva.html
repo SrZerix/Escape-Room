@@ -1,0 +1,216 @@
+<html lang="es">
+
+<head>
+        <meta charset="UTF-8">
+      <!-- Boostrap Links -->  
+        <link rel="stylesheet" href="css/bootstrap.css">
+        <link rel="stylesheet" href="css/bootstrap-grid.css">
+        <link rel="stylesheet" href="css/bootstrap-reboot.css">
+
+        <!-- Js de Boostrap -->       
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.js"></script>
+        
+      <!-- Personal Link -->   
+        <link rel="stylesheet" href="css/main.css">
+      <!-- FontAwesome Link -->   
+        <link href="css/fontawesome/css/all.css" rel="stylesheet"> 
+        <title> Escape Rooom - Inferno </title>
+</head>
+
+<!-- Header/Contact Info-->
+           
+<header>
+        <div class="row pr-2 mx-0">
+            <div class="col-4 d-flex justify-content-center">
+                <em> <a href="index.html"> <h4> Escape Rooom - Inferno </h4> </a> </em>
+            </div>
+            <div class="col-8 d-flex align-items-center ">
+                <i class="fas fa-envelope ml-auto mr-2"></i></i> escaperoom@inferno.com   
+                    <i class="fas fa-phone mr-2 ml-3 pl-4"></i> 945632122
+                    <i class="fab fa-whatsapp mr-2 ml-3 pl-4"></i> +34654321123
+            </div>
+        </div>
+</header>
+
+<!-- Header End -->
+
+
+
+<!-- Navbar -->
+
+<nav class="navbar">   
+        <div class="col-6 d-flex justify-content-center ">
+                <a href="rooms.html"><h4> Nuestras Salas </h4></a>
+        </div>
+        <div class="col-4 d-flex justify-content-around">
+                <a href="normas.html" class="items-nav"><strong> Normas </strong> </a>
+                <a href="ciudades.html" class="items-nav"><strong> Ciudades </strong></a>
+                <a href="dudas.html" class="items-nav"><strong> ¿Dudas? </strong></a>
+               
+        </div>
+        <div class="col-2 d-flex justify-content-end"> <button id="reserva-btn" class="btn"> <strong> ¡RESERVA YA! </strong> </button> </div>    
+</nav>
+
+<!-- Navbar End -->
+
+<body>
+
+ <!-- Main Section -->   
+<section id="main_section" class="container pt-2">
+
+
+<!-- Reserva -->
+<div id="reserva" class="row mt-4 mb-4">
+
+    <div class="col-6 d-flex justify-content-center">
+                                
+        <table id="form-reserva" class="table d-flex justify-content-center">
+                        <thead>
+                        </thead>
+                        <tbody>
+                                <form>
+                          <tr>
+                            <th scope="row"><i class="fas fa-id-card mr-2"></i>DNI</th>
+                            <td><input type="text" class="form-control" id="dniReserva" aria-describedby="dni" maxlength="9" size="9" placeholder="Introduzca su DNI..." required></td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><i class="fas fa-male mr-2"></i> Nombre</th>
+                            <td><input type="text" class="form-control" id="nombreReserva" maxlength="15" size="15" placeholder="Introduzca su nombre..." required></td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><i class="fas fa-calendar-week mr-2"></i>Fecha</th>
+                            <td><input type="date" class="form-control" id="fechaReserva" required></td>
+                          </tr>
+                          <tr>
+                            <th scope="row"><i class="fas fa-chess-rook mr-2"></i>Salas</th>
+                            <td><select class="form-control" id="salasReserva">
+                                    <option>Calabozo</option>
+                                    <option>Abadia</option>
+                                    <option>Cripta</option>
+                                    <option>Oficinas</option>
+                                    <option>Piramide</option>
+                                 </select>   
+                            </td>
+                          </tr><tr>
+                             <th scope="row"><i class="fas fa-users mr-2"></i>Participantes</th>
+                             <td><select class="form-control" id="participantesReserva">
+                                        <option>Cuatro</option>
+                                        <option>Cinco</option>
+                                        <option>Seis</option>
+                                        <option>Siete</option>
+                                        <option>Ocho</option>
+                                     </select>  </td>
+                          </tr>
+                          <tr>
+                        <th scope="row"><i class="fas fa-money-bill-wave-alt mr-2"></i>Pago</th>
+                        <td>
+                                <div id="pagos" class="col-12 d-flex justify-content-around">
+     
+                                <label class="pr-2">Tarjeta 
+                                <input type="radio" class="form-control ml-2" name="pago" value="VISA"></label>
+
+                                <label class="pr-2">Transferencia 
+                                <input type="radio" class="form-control ml-4" name="pago" value="Transferencia"></label>
+ 
+                                <label class="pr-2">Metálico 
+                                <input type="radio" class="form-control ml-2" name="pago" value="Metálico"></label>
+
+                                <label>PayPal
+                                <input type="radio" class="form-control ml-2" name="pago" value="Paypal"></label>
+                                </div>
+                        </td>
+                        </tr>
+                        <tr>
+                        <th scope="row"><i class="fas fa-comments mr-2"></i> Comentario</th>
+                        <td><textarea class="form-control" id="areaReserva" maxlength="100" rows="3"></textarea></td>
+                        </tr>
+                        <tr><th></th><td><button id="btn_search" class="btn ml-5" name="btn search" type="submit"> <strong>Comprar</strong></button></td></tr>
+                        </form>
+                        </tbody>
+                      </table>
+    </div>
+
+    <div id="aviso" class="col-6">
+        <div class="row d-flex justify-content-center">
+              <h3 class="mt-1 pb-2">AVISO</h3>
+        </div>
+        
+        <div class="container">
+                <p> Las cancelaciones solo se pueden realizarse desde <strong> el día que se realizó la reseva </strong>
+                hasta <strong> tres días antes del día que se realiza la actividad</strong>. </p>
+                <p> Los rembolsos, que se efectuarán
+                siempre en una cuenta bancaria independientemente de la forma de pago, se harán
+                ejectivos en <strong> dos días hábiles. </strong> </p>
+                <p>Muchas Gracias - <em> La organización de <strong> Escape Room - Inferno </strong> </em></p> 
+        </div>
+
+        <div class="container">
+                <img class="img-fluid pt-4" src="img/payment.png">
+        </div>
+
+    </div>
+     
+</div>
+
+</section>
+
+ <!-- Main End -->           
+</body>
+
+<section class="container-fluid">
+
+<!-- Footer -->
+<footer class="row rounded-top">
+
+        <!-- Atencion al cliente -->
+
+        <div class="col-4 pt-2 d-flex justify-content-around">
+                        <ul class="small mr-4">
+                                <li>Atencion al cliente</li>
+                                <li>Cancelaciones</li>
+                                <li>Políticas de Privacidad</li>
+                                <li>Cuestiones Legales</li>
+                        </ul>
+        
+                        <ul class="small mr-4">
+                                <li>Atencion al cliente</li>
+                                <li>Cancelaciones</li>
+                                <li>Políticas de Privacidad</li>
+                                <li>Cuestiones Legales</li>
+                        </ul>
+        
+        </div>
+
+        <!-- Redes -->
+
+        <div class="col-4 d-flex justify-content-start">
+           
+        <div class="row" >       
+                <div class="col-12 d-flex justify-content-center mt-2"><h5>¡¡Siguenos en nuestras Redes!!</h5></div>        
+                        <div class="col-12 d-flex justify-content-around">
+                                <a href="#"><i class="fab fa-2x fa-twitter"></i> </a>
+                                <a href="#"><i class="fab fa-2x fa-instagram"></i> </a>
+                                <a href="#"><i class="fab fa-2x fa-facebook"></i> </a>
+                        </div>
+                </div>
+        </div>
+
+
+        <!-- Cuadro de Busqueda -->
+
+        <div class="col-4 d-flex justify-content-center">
+                <form class="col-12 mt-3">
+                        <div class="d-flex">
+                                <input class="form-control ml-4 mt-2" type="search" placeholder="Encuentra tu partida...">
+                                <button id="btn_search" class="btn mt-2 ml-3" name="btn search" type="submit"> <strong>Buscar</strong></button>
+                        </div>
+                </form>
+        </div>
+</footer>
+
+</section>
+
+<!-- End Footer -->
+</html>

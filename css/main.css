@@ -1,0 +1,187 @@
+a {
+    color: black;
+}
+
+ul li {
+    list-style: none;
+}
+
+
+#main_section2 ul li::before{
+
+    
+    color:#d8e708
+}
+
+#main_section2 li::before { font-size:25px; content: "• "; color: #d8e708}
+
+
+#fqa ul li::before{
+
+    
+    color:#d8e708
+}
+
+#fqa li::before { font-size:25px; content: "- "; color: #d8e708}
+
+#form-reserva tbody tr td{
+    border: 0;  
+}
+
+#pagos label input{
+
+    width: 20px;
+
+    height:20px;
+}
+
+#form-reserva tbody th{
+    color: #d8e708;
+    border: 0;
+}
+
+#reserva-btn{
+
+    background-color: #d8e708;
+}
+
+
+header h4 {
+
+    color:#5b5c53;
+    transition: 0.5s
+}
+
+#dudas h4{
+
+  color: #d8e708
+}
+
+/*
+
+header h4:hover {
+
+    color:#d8e708;
+    transform: scale(1.1);
+    transition: 0.5s
+}
+
+*/
+
+header {
+    color: #CCC
+}
+
+#main_section2 h4{
+
+    color:#d8e708
+
+}
+
+#main_section2 ul li::before {
+
+    list-style: circle;
+    color: #d8e708
+}
+
+
+#blogId h4{
+
+    color:#d8e708
+
+}
+
+#blogId h5 {
+
+    color:#adafad
+
+}
+
+#blogId p {
+
+    color: #CCC
+
+}
+
+.blog div:hover{
+
+    transform: scale(0.9);
+    transition: 0.5s;
+}
+
+
+div {
+
+    color:#adafad
+}
+
+#reserva {
+
+    color:#d8e708;
+}
+
+#aviso h3 {
+
+    color:#d8e708;
+}
+
+a:hover{
+
+    text-decoration: none
+}
+
+
+#btn_search {
+
+    background-color: #d8e708
+    
+}
+
+.navbar a{
+
+    color:#d8e708;
+    transition: 0.5s;
+}
+
+.navbar a:hover{
+
+    transform: scale(1.2);
+    transition: 0.5s;
+
+}
+
+i{
+    color:#d8e708;
+}
+
+#mapas h5 {
+
+    color:#000;
+
+}
+
+body {
+
+    color: #cccccc;
+    background-image: url("../img/fondo.png");
+}
+
+footer {
+
+    background-image: url("../img/footer.png");
+
+}
+
+#footerNormas {
+
+    background-image: url("../img/footer.png");
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+
+}
+
+header, nav{
+
+    background-image: url("../img/footer.png");
+}
